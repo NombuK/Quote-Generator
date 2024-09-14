@@ -33,7 +33,7 @@ img {
 }
 
 .container {
-  height: 600px;
+  height: max-content;
   width: 600px;
   padding: 10px auto;
   padding-bottom: 30px;
@@ -63,6 +63,10 @@ header {
   border: 2px solid #9f8066;
   padding: 13px;
   border-radius: 20px;
+}
+
+#poem{
+  font-weight: 700;
 }
 
 main {
