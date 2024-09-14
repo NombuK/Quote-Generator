@@ -1,4 +1,83 @@
 body {
-  background-color: pink;
-  font-family: sans-serif;
+  color: black;
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/341/original/hearts.jpg?1726281980");
+}
+
+h1 {
+  text-align: center;
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.description {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #f5dda9;
+  background-color: #ab9796;
+  width: 200px;
+}
+
+.description,
+img {
+  border: 3px solid #9f8066;
+}
+
+.container {
+  height: 600px;
+  width: 600px;
+  padding: 10px auto;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  margin: 12px auto;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+header {
+  margin-bottom: 35px;
+}
+
+.input-el {
+  border: 2px solid #9f8066;
+  line-height: 20px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.submit-el {
+  background-color: #f5dda9;
+  border: 2px solid #9f8066;
+  padding: 13px;
+  border-radius: 20px;
+}
+
+main {
+  margin: 10px auto;
+  padding: 30px;
+  max-width: 500px;
+  background-color: #ab9796;
+  border-radius: 30px;
+  border: 3px solid #9f8066;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: #f5dda9;
 }

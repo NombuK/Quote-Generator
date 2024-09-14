@@ -6,42 +6,62 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <title>AI Quote Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Hello World</h1>
-    </header>
-
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter your topic of interest"
-          required
-          autofocus
+    <div class="container">
+      <header>
+        <h1>Enlighten your day now!</h1>
+      </header>
+      <div class="images">
+        <img
+          src="
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/340/original/bageHeart.jpg?1726281910"
+          alt="hearts"
+          width="200"
+          height="200"
         />
-        <input type="button" value="Submit" />
-      </form>
-      <div>
-        Either you run the day <br />
-        or the day runs you😉
+        <div class="description">
+           🤎🤎🤎 <br> Step into the day with a positive mind. <br> Fill your cup and spread the love <br> 🤎🤎🤎
+        </div>
       </div>
-    </main>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter your topic of interest"
+            class="input-el"
+            required
+            autofocus
+          />
+          <input type="button" class="submit-el" value="Submit" />
+        </form>
+        <div>Either you run the day or the day runs you😉</div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/NombuK/" target="_blank">Nombulelo Khumalo</a>
-      and is open-sourced on
-      <a href="https://github.com/NombuK/Quote-Generator" target="_blank"
-        >Github</a
-      >
-      and is hosted on
-      <a href="https://quote-generator-nk.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/NombuK/" target="_blank">
+          <strong>Nombulelo Khumalo</strong>
+        </a>
+        with 🤎 and is open-sourced on
+        <a href="https://github.com/NombuK/Quote-Generator" target="_blank">
+          <strong>Github</strong>
+        </a>
+        and is hosted on
+        <a href="https://quote-generator-nk.netlify.app/" target="_blank">
+          <strong>Netlify</strong>
+        </a>
+      </footer>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
